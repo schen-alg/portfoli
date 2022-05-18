@@ -4,6 +4,10 @@
 body{
   background: black;
 }
+a{
+  color: white;
+  text-decoration: none;
+}
 #cabecera{
   width: auto;
   height: 125px;
