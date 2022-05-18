@@ -1,0 +1,75 @@
+<html lang="es-es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+   	<link href="jquery-ui.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="slider/sss.min.js"></script><link rel="stylesheet" href="slider/sss.css" type="text/css" media="all">
+    <script>
+      jQuery(function($) {
+        $('.slider').sss({
+        slideShow : true,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="slider">
+      <img src="images/img01.jpeg" />
+      <img src="images/img02.jpeg" />
+      <img src="images/img03.jpeg" />
+    </div>
+    <script></script>
+    <nav class="movil">
+      <input type="checkbox" id="menu">
+      <label for="menu"> ☰ </label>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes.html">Quiénes somos?</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </nav>
+    <nav class="normal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes.html">Quiénes somos?</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <div class="clear"></div>
+      </ul>
+    </nav>
+
+    <div id="contenido">
+    <div class="modulo uno"><h1>Inicio</h1></div>
+    <div class="modulo dos"></div>
+    <div class="modulo tres"></div>
+    <div class="modulo cuatro"></div>
+    <div class="modulo cinco"></div>
+  </div>
+  <h2 class="demoHeaders">Tabs</h2>
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">First</a></li>
+      <li><a href="#tabs-2">Second</a></li>
+      <li><a href="#tabs-3">Third</a></li>
+    </ul>
+    <div id="tabs-1"><iframe width="400" height="250" src="https://www.youtube.com/embed/Jh4QFaPmdss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
+    <div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
+  </div>
+  <script src="external/jquery/jquery.js"></script>
+  <script src="jquery-ui.js"></script>
+  <script>
+  $( "#tabs" ).tabs();
+  $( "#dialog-link, #icons li" ).hover(
+  	function() {
+  		$( this ).addClass( "ui-state-hover" );
+  	},
+  	function() {
+  		$( this ).removeClass( "ui-state-hover" );
+  	}
+  );
+  </script>
+  </body>
+</html>

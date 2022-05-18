@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lavender;
+}
+#contenedor{
+  background-color: white;
+  width: 800px;
+  margin: auto;
+}
+#cabecera{
+  padding: 30px;
+}
+#menu{
+  background-color: white;
+  width: 480px;
+  margin:0 auto;
+}
+.bolete{
+  text-align:center;
+  width:100px;
+  height:100px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 20px;
+}
+.bolete:hover{
+  opacity: 0.5;
+  color: white;
+}
+#uno{
+  background-color: red;
+}
+#dos{
+  background-color: yellow;
+}
+#tres{
+  background-color: green;
+}
+#cuatro{
+  background-color: blue;
+}
+.izq{
+  width: 340px;
+  height: 340px;
+  padding: 30px;
+  background-color: blue;
+  float:left;
+  font-size: 80px;
+  font-family: sans-serif;
+  color: white;
+}
+.der{
+  width: 340px;
+  height: 340px;
+  padding: 30px;
+  background-color: orange;
+  float:right;
+  font-size: 80px;
+  font-family: sans-serif;
+  color: white;
+}
+#footer{
+  clear:both;
+}
+ul{
+  list-style-type: none;
+  width:800px;
+  margin:0 auto;
+}
+li{
+  decoration: none;
+  display: block;
+  padding:74.4px;
+  background-color: black;
+  color: white;
+  float:left;
+}
+li:hover{
+  background-color: white;
+  color: black;
+}

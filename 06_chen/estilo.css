@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+  background-repeat: no-repeat;
+  background-position: 500px;
+}
+h2,p{
+  color: #666;
+}
+.clar{
+  color: #fff
+}
+h2{
+  width: 400px;
+  padding: 20px 40px;
+  font-size: 40px;
+  font-family: helvetica,arial,sans-serif;
+}
+p{
+  width: 400px;
+  padding: 0px 40px;
+  font-size: 25px;
+  font-family: sans-serif;
+
+}
+ul{
+  list-style-type: none;
+  text-align: right;
+  margin-right: 20px;
+  font-family: sans-serif;
+}
+li{
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 11px;
+}
+a{
+  text-decoration: none;
+  color: #6c3;
+  font-weight: bold;
+}
+a:hover{
+  color: #666;
+}
+#cabecera{
+  height: 40px;
+  background-image: url("img/logo.png");
+  background-position: 20px 5px;
+}
+#coneix{
+  height: 550px;
+  background-color: #6c3;
+  background-image: url("img/img-hero-full-list.png");
+}
+#tot{
+  height: 641px;
+  background-color: #fff;
+  background-image: url("img/allinone.jpg");
+}
+#util{
+  height: 500px;
+  background-color: #333;
+  background-image: url("img/curator-short.png");
+}
+#rapid{
+  height: 550px;
+  background-color: #eeecee;
+  background-image: url("img/img-hero-full-list.png");
+}
+#facil{
+  height: 550px;
+  background-color: #6c3;
+  background-image: url("img/mobile-share.png");
+  background-position: 500px bottom;
+}
+#atot{
+  height: 641px;
+  background-color: #eeecee;
+  background-image: url("img/anywhere.png");
+}
+#pie{
+  height: 200px;
+  background-color: #333;
+  text-align: center;
+  padding-top: 40px;
+}
+#pie a{
+  padding-left: 20px;
+}
+.boton a{
+  color: white;
+}
+.boton{
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(110, 110, 110, 0.5);
+  position: fixed;
+  bottom: 20px;
+  left: 20px
+}

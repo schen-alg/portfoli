@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: #191970;
+}
+.montana{
+  background-color: #556B2F;
+  border-radius: 50% 50% 100% 0% / 100% 100% 0% 0% ;
+  position: absolute;
+  float: left;
+}
+.montana.uno{
+  width: 300px;
+  height: 300px;
+  top: 300px;
+  left: 0px;
+}
+.montana.dos{
+  width: 500px;
+  height: 400px;
+  left: 200px;
+  top: 200px;
+  background-color: #2F4F4F;
+}
+.montana.tres{
+  width: 200px;
+  height: 200px;
+  left: 600px;
+  top: 400px;
+}
+.montana.cuatro{
+  width: 700px;
+  height: 800px;
+  left: 1300px;
+  top: -200px;
+}
+#luna{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #FFFACD;
+  position: absolute;
+  top: 150px;
+  left: 1000px;
+}
+#hierba{
+  background-color: #6B8E23;
+  width: 2000px;
+  height: 400px;
+  position: absolute;
+  top: 600px;
+}
+#casa{
+  width: 200px;
+  height: 150px;
+  background-color: #C0C0C0;
+  position: absolute;
+  top: 450px;
+  left: 200px;
+  z-index: 1;
+}
+#tejado{
+  width: 250px;
+  height: 150px;
+  background-color: #B22222;
+  position: absolute;
+  top: -80px;
+  left: -25px;
+  clip-path: polygon(50% 0%, 0 60%, 100% 60%);
+}
+#ventana{
+  width: 50px;
+  height: 50px;
+  background-color: #FFF5EE;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+#puerta{
+  width: 60px;
+  height: 100px;
+  background-color: #8B4513;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+#redondo{
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+}
+#fantasma{
+  width: 30px;
+  height: 30px;
+  background: black;
+  position: absolute;
+  border-radius: 50% 50% 50% 50% / 100% 100% 0% 0% ;
+  top: 20px;
+  left: 10px;
+  animation: fantasma 4s infinite linear;
+}
+@keyframes fantasma {
+  0% {opacity: 1.0; left: 0px;}
+  50% {opacity: 0.0; left: 20px;}
+  100% {opacity: 1.0;left: 0px;}
+}
+.ojo{
+  width: 5px;
+  height: 5px;
+  background: red;
+  position: relative;
+  border-radius: 50%;
+  top: 10px;
+  left: 5px;
+  margin-left: 5px;
+  float: left;
+}
+@keyframes flor {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+#flor{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: lightyellow;
+  position: absolute;
+  top: 550px;
+  left: 450px;
+  z-index: 1;
+  animation: flor 3s infinite linear;
+}
+.petalo{
+  width: 20px;
+  height: 20px;
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
+  position: absolute;
+  background: red;
+}
+.petalo.uno{
+  top: 5px;
+  left: 5px;
+}
+.petalo.dos{
+  top: -15px;
+  left: -15px;
+}
+.petalo.tres{
+  top: -15px;
+  left: 5px;
+  transform: rotate(90deg);
+}
+.petalo.cuatro{
+  top: 5px;
+  left: -15px;
+  transform: rotate(90deg);
+}
+#centro{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: lightyellow;
+  position: absolute;
+  z-index: 1;
+}
+#palo{
+  width: 10px;
+  height: 40px;
+  background-color: green;
+  position: absolute;
+  top: 560px;
+  left: 450px;
+}
+@keyframes estrella{
+  0%{opacity: 1.0;}
+  50%{opacity: 0.0;}
+  100%{opacity: 1.0;}
+}
+.estrella{
+  width: 10px;
+  height: 10px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background-color: white;
+  position: relative;
+  float: left;
+  animation: estrella 1s infinite linear;
+}
+.estrella.uno{
+  margin: 180px;
+}
+.estrella.dos{
+  margin: 300px;
+}
+.estrella.tres{
+  margin: 50px;
+}
+@keyframes sangre {
+  0%{transform: scale(0);}
+  100%{transform: scale(3);}
+}
+#sangre{
+  width: 30px;
+  height: 50px;
+  border-radius: 100% 0% 76% 24% / 0% 30% 70% 100% ;
+  background-color: red;
+  position: absolute;
+  top: 600px;
+  left: 250px;
+}
+.sangre_animacion{
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  top: 33px;
+  left: -14px;
+  border-radius: 49% 51% 49% 51% / 50% 47% 53% 50% ;
+  background-color: red;
+  animation: sangre 20s ;
+  animation-fill-mode: forwards;
+}

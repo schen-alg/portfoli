@@ -1,0 +1,186 @@
+body{
+  background-color: lightblue;
+}
+/*cara*/
+.cara{
+  background: #FFEFD5;
+  width: 400px;
+  height: 500px;
+  border: 3px solid #000;
+  border-radius: 50% 50% 49% 51% / 35% 34% 66% 65% ;
+  margin: 200px auto;
+  position: relative;
+  overflow: hidden;
+}
+.ojos{
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  width: 100%;
+  z-index: 10;
+}
+.ojo{
+  background: #fff;
+  position: relative;
+  border: 3px solid #000;
+  width: 100px;
+  height: 90px;
+  margin-right: 73px;
+  display: inline-block;
+  border-radius: 50% 50% 50% 50% / 38% 38% 62% 62% ;
+}
+.parpado{
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  width: 100px;
+  height: 35px;
+  background-color: #FFEFD5;
+  border: 3px solid #000;
+  border-radius: 50% 50% 50% 50% / 62% 62% 38% 38%;
+  z-index: 20;
+}
+.ojo_interno{
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  position: absolute;
+  top: 32px;
+  left: 42px;
+  border-radius: 50%;
+  z-index: 15;
+}
+.pestanas{
+  position: relative;
+  top: 10px;
+  left: 8px;
+  z-index: 25;
+}
+
+.pestana.primera{
+  width: 3px;
+  height: 25px;
+  margin-right: 5px;
+  background: #000;
+  display: inline-block;
+  -moz-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+.pestana.segunda{
+  width: 3px;
+  height: 20px;
+  background: #000;
+  margin-right: 5px;
+  display: inline-block;
+  -moz-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+.pestana.tercera{
+  width: 3px;
+  height: 20px;
+  background: #000;
+  display: inline-block;
+  -moz-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+.nariz{
+  background: #FFEFD5;
+  width: 30px;
+  height: 80px;
+  position: absolute;
+  top: 270px;
+  left: 165px;
+  border:3px solid #000;
+  border-right:3px solid transparent;
+  border-top:3px solid transparent;
+  border-bottom-left-radius: 10%;
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+  z-index: 30;
+}
+.boca_uno{
+  position: relative;
+  background-color: red;
+  top: 390px;
+  left: 138px;
+  width: 100px;
+  height: 10px;
+  border: 3px solid #000;
+  border-radius: 50% 50% 50% 50% / 100% 100% 0% 0% ;
+}
+.boca_dos{
+  position: relative;
+  background-color: red;
+  top: 386px;
+  left: 138px;
+  width: 100px;
+  height: 10px;
+  border: 3px solid #000;
+  border-radius: 50% 50% 50% 50% / 0% 0% 100% 100% ;
+  display: inline-block;
+}
+
+.flequillo{
+  position: relative;
+  margin: -720px auto;
+  background-color: black;
+  width: 420px;
+  height: 200px;
+  border-radius: 50% 50% 50% 50% / 100% 100% 0% 0% ;
+}
+.pelo{
+  position: relative;
+  margin: 500px auto;
+  background-color: black;
+  width: 500px;
+  height: 800px;
+  z-index: -10;
+  border-radius: 50% 50% 50% 50% / 30% 30% 10% 10% ;
+}
+.rubia{
+  position: absolute;
+  top: 300px;
+  left: 80px;
+  margin-right: 100px;
+  width: 100px;
+  height: 500px;
+  border-radius: 10%;
+  background-color: #F0E68C;
+  z-index: 1;
+}
+.rubia.dos{
+  margin-left: 240px;
+}
+.cuello{
+  position: relative;
+  margin: -780px auto;
+  background-color: #FFEFD5;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #000;
+  border-bottom: 3px solid transparent;
+  z-index: -1;
+}
+.cuerpo{
+  position: relative;
+  background-color: #FFEFD5;
+  margin: 760px auto;
+  width: 500px;
+  height: 200px;
+  border: 3px solid #000;
+  border-radius: 20% 20% 53% 47% / 100% 100% 0% 0% ;
+  border-bottom: 3px solid transparent;
+  z-index: -2;
+}
