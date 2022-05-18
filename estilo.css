@@ -2,26 +2,155 @@
   margin: 0;
 }
 body{
-  background: lightpink;
+  background: black;
 }
 #cabecera{
   width: auto;
-  height: 100px;
-  background: white;
-
+  height: 125px;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 10px orange;
+  line-height: 125px;
+  font-size: 4em;
+  font-family: 'Yeseva One', cursive;
 }
+
 #contenedor{
-  background: lightblue;
-  width: 900px;
-  height: 700px;
-  margin: auto;
+  background-image: url("img/planeta_6.jpeg");
+  background-position: center;
+  background-size: 175%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin: 140px auto;
+  box-shadow: 0px 0px 40px orange;
+}
+
+.boletes p{
+  color: white;
+  font-size: 1em;
+  line-height: 150px;
+  font-family: 'Yeseva One', cursive;
+  opacity: 0;
+}
+.boletes p:hover{
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  line-height: 160px;
 }
 .boletes{
-  width: 100px;
-  height: 100px;
-  background: white;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 50%;
   text-align: center;
-  float: left;
-  margin: 20px;
+  position: absolute;
+}
+.boletes:hover{
+  width: 160px;
+  height: 160px;
+  box-shadow: 0px 0px 20px white;
+  background-position: center;
+}
+.boletes.uno{
+  margin: -120px;
+  background-image: url("img/planeta_1.jpeg");
+  background-size: 183%;
+}
+.boletes.dos{
+  margin-left: -240px;
+  margin-top: 50px;
+  background-image: url("img/planeta_2.jpeg");
+  background-size: 145%;
+
+}
+.boletes.tres{
+  margin-left: -250px;
+  margin-top: 250px;
+  background-image: url("img/planeta_3.jpeg");
+  background-size: 115%;
+}
+.boletes.cuatro{
+  margin-left: -120px;
+  margin-top: 440px;
+  background-image: url("img/planeta_4.png");
+  background-size: 163%;
+}
+.boletes.cinco{
+  margin-left: 440px;
+  margin-top: -120px;
+  background-image: url("img/planeta_5.png");
+  background-size: 130%;
+}
+.boletes.seis{
+  margin-left: 550px;
+  margin-top: 50px;
+  background-image: url("img/luna.jpeg");
+  background-size: 115%;
+}
+.boletes.siete{
+  margin-left: 570px;
+  margin-top: 250px;
+  background-image: url("img/planeta_7.jpeg");
+  background-size: 208%;
+}
+.boletes.ocho{
+  margin-left: 470px;
+  margin-top: 440px;
+  background-image: url("img/planeta_8.jpeg");
+  background-size: 100%;
+}
+.boletes.nueve{
+  margin-left: 70px;
+  margin-top: 540px;
+  background-image: url("img/planeta_9.jpeg");
+  background-size: 191%;
+}
+.boletes.diez{
+  margin-left: 280px;
+  margin-top: 540px;
+  background-image: url("img/planeta_10.jpeg");
+  background-size: 275%;
+}
+.boletes.once{
+  width: 200px;
+  height: 200px;
+  margin-left: -580px;
+  margin-top: 150px;
+  background-image: url("img/bola_1.jpeg");
+  background-size: 180%;
+}
+.boletes.doce{
+  width: 200px;
+  height: 200px;
+  margin-left: 830px;
+  margin-top: 150px;
+  background-image: url("img/bola_2.jpeg");
+  background-size: 180%;
+}
+.boletes.once:hover, .boletes.doce:hover{
+  width: 210px;
+  height: 210px;
+}
+.boletes.once p, .boletes.doce p:hover{
+  width: 210px;
+  height: 210px;
+  line-height: 210px;
+}
+.boletes.trece{
+  width: 500px;
+  height: 500px;
+}
+.boletes.trece p{
+  background: white;
+  color: black;
+  width: 500px;
+  height: 500px;
+  opacity: 0,8;
+  line-height: 500px;
+  font-size: 2em;
 }
